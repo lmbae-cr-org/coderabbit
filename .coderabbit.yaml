@@ -1,0 +1,18 @@
+inheritance: false
+language: "en-US"
+reviews:
+  profile: chill
+  request_changes_workflow: true
+  high_level_summary: true
+  auto_review:
+    enabled: true
+    drafts: true
+  path_instructions:
+    - path: "src/**"
+      instructions: "Follow our coding standards"
+    - path: "docs/**"
+      instructions: "Check for grammar and clarity"
+    - path: "tests/**"
+      instructions: "Ensure adequate test coverage"
+chat:
+  art: false
