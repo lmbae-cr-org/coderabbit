@@ -1,5 +1,4 @@
-inheritance: false
-language: "de-DE"
+inheritance: true
 reviews:
   profile: chill
   request_changes_workflow: true
